@@ -1,0 +1,63 @@
+#Grid{
+    -fx-background-color: rgb(63, 63, 63);
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-padding: 10;
+}
+
+#res{
+     -fx-background-color: rgb(186, 186, 20);
+    -fx-font-size: 20px;
+    -fx-text-fill: rgb(255, 241, 241);
+}
+
+#num {
+    -fx-background-color: rgb(45, 45, 45);
+    -fx-font-size: 20px;
+    -fx-text-fill: rgb(255, 241, 241);
+}
+
+#operators{
+    -fx-background-color: rgb(207, 135, 0);
+    -fx-font-size: 20px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+
+#containerTextFIeld{
+    -fx-background-color: rgb(143, 143, 143);
+}
+#textField{
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 6 12 6 12;
+    -fx-background-color: rgb(143, 143, 143);
+    -fx-border-color: #ccc;
+    -fx-border-width: 2px;
+    -fx-text-fill:white ;
+
+}
+.button{
+    -fx-background-radius: 8px;
+    -fx-background-color: rgb(45, 45, 45);
+    -fx-font-size: 20px;
+    -fx-text-fill: rgb(255, 241, 241);
+    -fx-border-radius: 8px;
+    -fx-padding: 6 12 6 12;
+    -fx-border-color: #ccc;
+    -fx-border-width: 2px;
+    -fx-text-fill:white ;
+}
+
+.button:hover{
+    -fx-background-color: rgb(113, 113, 113);
+}
+#res:hover{
+    -fx-background-color: rgb(223, 188, 72);
+}
+#num:hover{
+    -fx-background-color: rgb(113, 113, 113);
+}
+#operators:hover{
+    -fx-background-color: rgb(249, 190, 79);
+}
