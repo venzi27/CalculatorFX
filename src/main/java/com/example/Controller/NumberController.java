@@ -82,9 +82,9 @@ public class NumberController {
     private StringBuilder current = new StringBuilder();
     private StringBuilder secondAppend = new StringBuilder();
     private String operator = "";
-    private int result;
-    private int num1;
-    private int num2;
+    private double result;
+    private double num1;
+    private double num2;
 
     @FXML
     void add(ActionEvent event) {
@@ -151,13 +151,13 @@ public class NumberController {
     @FXML
     void equal(ActionEvent event) {
         if (secondAppend.length() == 0 || current.length() == 0) {
-            textField.setText("Invalid Input");
+            textField.setText("0");
             return;
         }
 
         try {
-            num1 = Integer.parseInt(secondAppend.toString());
-            num2 = Integer.parseInt(current.toString());
+            num1 = Double.parseDouble(secondAppend.toString());
+            num2 = Double.parseDouble(current.toString());
         } catch (NumberFormatException e) {
             textField.setText("Invalid Number Format");
             return;
