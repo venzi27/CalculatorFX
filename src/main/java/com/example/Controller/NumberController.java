@@ -159,7 +159,7 @@ public class NumberController {
             num1 = Double.parseDouble(secondAppend.toString());
             num2 = Double.parseDouble(current.toString());
         } catch (NumberFormatException e) {
-            textField.setText("Invalid Number Format");
+            textField.setText("0");
             return;
         }
 
@@ -186,6 +186,7 @@ public class NumberController {
         if (secondAppend.length() == 0) {
             secondAppend.append(result);
         }
+        
         current.setLength(0);
 
     }
